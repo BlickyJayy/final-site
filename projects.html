@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blicky Projects</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="page tooltip" id='projects'>
+      <div class='project-filter'>
+        <a href="javascript:;">Fruit</a>
+        <a href="javascript:;">Plants</a>
+        <a href="javascript:;">Other</a>
+        <a href="javascript:;">All</a>
+        <span class="tooltiptext" hidden> click an image to activate</span>
+
+
+      </div>
+      <div class="projects-container" class="background" class='slideshow'>
+        <div class="slideshow-overlay" hidden></div>
+
+        <!-- wrap project divs in a tag to link to project detail pages -->
+        <!--a href="projects/project-1.html"-->
+          <div class="slideshow-image image-a project fruit" id='image-1'>
+          </div>
+        <!--/a-->
+
+
+        <div class="project plants image-b slideshow-image" id='image-2' >
+        </div>
+        <div class="project fruit image-c slideshow-image" id='image-3' hidden>
+        </div>
+        <div class="project other image-d slideshow-image" id='image-4'>
+        </div>
+        <div class="project fruit image-e slideshow-image" id='image-5' hidden>
+        </div>
+        <div class="project other image-f slideshow-image" id='image-6' >
+        </div>
+        <div class="project other image-g slideshow-image" id='image-7' hidden>
+        </div>
+        <div class="project other image-h slideshow-image" id='image-8' >
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+      <script type="text/javascript" src='projects.js'></script>
+  </body>
+</html>

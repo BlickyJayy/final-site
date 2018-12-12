@@ -1,0 +1,250 @@
+/* import a font from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* main styles for the body, global background color, text color, font, 0 out margin */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  color: #fdfdfd;
+  margin: 0;
+}
+
+
+/* styles for the nav */
+/* position fixed keeps the nav from scrolling off screen */
+/* top and left position the nav */
+/* flex styling keeps the nav elements nicely spaced out */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #fdfdfd;
+}
+
+/* a tags withing .nav should have a set color ( so they don't turn blue ) */
+/* and no decoration */
+.nav a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+/* apply a line through style to nav a tags on hover */
+.nav a:hover {
+  text-decoration: line-through;
+}
+
+/* 0 out the margin on divs */
+div {
+  margin: 0;
+}
+
+/* styles for the home page */
+/* set the background image */
+/* and flex align all the content on the page */
+#home {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#home .hero-text {
+  padding: 64px 0;
+}
+#home h1 {
+  font-size: 8em;
+  margin: 16px;
+  text-align: center;
+}
+
+#home h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#home .slideshow {
+  padding-bottom: 32px;
+  height: 400px;
+}
+
+#home .slideshow .slideshow-image {
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  /* background-image: url('images/image-1.jpeg'); */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 4px #404040;
+}
+
+#home .slideshow .slideshow-viewer {
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 4px;
+  top: 10vh;
+  left: 10vw;
+}
+
+#home .slideshow .slideshow-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
+/* style for the projects pageg */
+/* silly background rainbow gradient */
+#projects, #about, #contact{
+  background-image: linear-gradient(20deg, salmon, indianred);
+}
+
+.project-filter {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+.project-filter a {
+  color: white;
+  font-size: 1.5em;
+}
+/* projects container stores all the project images */
+/* padding to keep from overlapping with the nav */
+/* flex style to keep all the projects looking nice */
+.projects-container {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* project div styles */
+/* background image displays the project image */
+.project {
+  border-radius: 4px;
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 16px;
+}
+
+.hidden {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* styles for project detail page */
+#project-detail {
+  background-color: thistle;
+}
+
+#project-detail h1 {
+  padding-top: 128px;
+  font-size: 8em;
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#project-detail div {
+  display: block;
+  text-align: center;
+  margin: 4px 0 32px 0;
+}
+
+#project-detail p {
+  font-size: 2em;
+  text-align: center;
+  /*text-decoration: underline;*/
+}
+
+#project-detail img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+.contact-form-container {
+  padding-top: 32px;
+  padding-left: 64px;
+}
+
+#contact form {
+  padding-top: 32px;
+}
+#contact form input, #contact form textarea {
+  display: block;
+  border: 0;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  margin: 4px 0 32px 0;
+  color: white;
+  font-size: 1em;
+}
+
+#contact form .comment {
+  border: 2px solid white;
+  width: 200px;
+  height: 70px;
+}
+
+#contact form .btn {
+  color: white;
+  font-size: 1em;
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid white;
+  margin-right: 16px;
+}
+/* some default page styles */
+/* min width and min height so our images always take the whole page */
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 64px;
+}
+
+/* this should probably be scoped to the nav but we didn't get there */
+a {
+  font-size: 2em;
+}
+
+
+/* project specific styling */
+/* set background image and change bg position where needed */
+#image-1 {
+  background-image: url("images/image-1.jpeg");
+}
+#image-2 {
+  background-image: url("images/image-2.jpeg");
+}
+#image-3 {
+  background-image: url("images/image-3.jpeg");
+}
+#image-4 {
+  background-image: url("images/image-4.jpeg");
+}
+#image-5 {
+  background-image: url("images/image-5.jpeg");
+}
+#image-6 {
+  background-image: url("images/image-6.jpeg");
+}
+#image-7 {
+  background-image: url("images/image-7.jpeg");
+}
+#image-8 {
+  background-image: url("images/image-8.jpeg");
+  background-position: bottom;
+}

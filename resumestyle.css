@@ -1,0 +1,112 @@
+h1{
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 6%;
+}
+div > img{
+  border: 1px dashed mediumorchid;
+  margin: 3em;
+  padding: 10vh;
+}
+
+#about{
+  background-image: url("background/bubbles.gif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 26px;
+}
+
+.about strong{
+  text-decoration-color: darkgoldenrod;
+  border-left: 1px dotted darkgoldenrod;
+  border-right: 1px dotted darkgoldenrod;
+}
+
+.bio h3{
+  text-align: center;
+  font-style: italic;
+  font-size: 100px;
+  font-family:Cormorant Garamond, serif;
+  line-height: 100%;
+  text-decoration-color: darkgoldenrod;
+}
+#bio{
+  border-bottom: 2px solid darkgoldenrod;
+  text-align: center;
+  font-family:Cormorant Garamond, serif;
+  line-height: 90%;
+  color: fafafa;
+}
+
+#my-leadership{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2vw;
+  color: fafafa;
+  line-height: 90%;
+}
+.my-leadership {
+  line-height: 100%;
+  padding-left: 26 px;
+  padding-right: 26 px;
+  padding-top: 16 px;
+}
+.experience {
+  display: inline-block;
+}
+.experience p strong{
+  font-family: Cormorant Garamond, serif;
+  font-size: 17px;
+  text-decoration-color: darkgoldenrod;
+}
+.experience p em{
+  font-family: Cormorant Garamond, serif;
+  font-size: 17px;
+  color: fafafa
+}
+.experience strong > em{
+  font-family: Cormorant Garamond, serif;
+  font-size: 17px;
+  color: fafafa
+}
+.experience h3{
+  padding: 10px;
+  color: fafafa;
+  font-family: Cormorant Garamond, serif;
+  text-align: left;
+}
+.experience {
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 15px;
+  border-bottom: 2px solid darkgoldenrod;
+  line-height: 100%;
+}
+.experience li > em{
+  font-family: Cormorant Garamond, serif;
+  font-size: 17px;
+  color: fafafa
+}
+.experience li strong{
+  font-family: Cormorant Garamond, serif;
+  font-size: 17px;
+  color: fafafa
+}
+#project{
+  font-family:'Julius Sans One', sans-serif;
+}
+.projects h3{
+  font-family: Cormorant Garamond, serif;
+  font-size: 4vh;
+  text-align: center;
+  border: 10px dotted darkgoldenrod;
+  padding: 6px;
+  color: fafafa;
+  text-decoration-color: darkgoldenrod; 
+}
+.projects h4{
+  color: darkgoldenrod;
+  font-family: Cormorant Garamond, serif;
+  font-size: 1.5em
+}
+.projects h5 {
+  color: darkslategray;
+}
