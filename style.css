@@ -85,12 +85,12 @@ div {
   margin: 0;
 }
 
-#home .slideshow {
+ .slideshow {
   padding-bottom: 32px;
   height: 400px;
 }
 
-#home .slideshow .slideshow-image {
+ .slideshow .slideshow-image {
   border-radius: 4px;
   width: 300px;
   height: 300px;
@@ -101,7 +101,7 @@ div {
   box-shadow: 0 4px 4px #404040;
 }
 
-#home .slideshow .slideshow-viewer {
+ .slideshow .slideshow-viewer {
   position: fixed;
   width: 80vw;
   height: 80vh;
@@ -110,7 +110,7 @@ div {
   left: 10vw;
 }
 
-#home .slideshow .slideshow-overlay {
+ .slideshow .slideshow-overlay {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -137,14 +137,27 @@ div {
 
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+ 
 .tooltip .tooltiptext {
   visibility: hidden;
   border-radius: 6px;
+  width: 120px;
+  background-color: fafafa;
+  color: honeydew;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext{
   display:center;
   text-decoration: none;
+  color: honeydew;
   font-size: 1 em;
   visibility: visible;
 }
