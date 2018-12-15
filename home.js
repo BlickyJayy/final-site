@@ -22,7 +22,7 @@ $(document).ready(function() {
       slideNumber = 0;
     }
   }
-$('h1').on({
+$('h3').on({
   ready:function(){
     $(this).css("color", "tomato");
   }
