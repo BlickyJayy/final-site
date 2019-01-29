@@ -11,6 +11,7 @@ div > img{
 
 #about{
   background-image: url("background/bubbles.gif.gif");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 26px;
@@ -100,7 +101,7 @@ div > img{
   border: 10px dotted darkgoldenrod;
   padding: 6px;
   color: fafafa;
-  text-decoration-color: darkgoldenrod; 
+  text-decoration-color: darkgoldenrod;
 }
 .projects h4{
   color: darkgoldenrod;
