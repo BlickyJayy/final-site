@@ -16,11 +16,11 @@ $(document).ready(function() {
     $('.slideshow-overlay').fadeOut(200)
     setInterval(slideshow, slideshowSpeed)
   }
-   /*else (clicks) {
+   else (clicks) {
     $('.slideshow-viewer').addClass('slideshow-viewer')
     $('.slideshow-overlay').fadeIn(200)
     setInterval(slideshow, slideshowSpeed)
-  }*/
+  }
 
   })
 
