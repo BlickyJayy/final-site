@@ -5,8 +5,7 @@
 /* main styles for the body, global background color, text color, font, 0 out margin */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fafafa;
-  color: #fdfdfd;
+  background-color: #000000;
   margin: 0;
 }
 
@@ -98,7 +97,9 @@ div {
 /* style for the projects page */
 /* silly background rainbow gradient */
 #projects{
-  background-color: black;
+  background-image: black;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .project-filter a {
@@ -126,7 +127,6 @@ div {
     justify-content: space-around;
     padding-top: 8px;
     padding-bottom: 16px;
-    background: black;
   }
 
 
