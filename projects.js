@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  var slideNumber = 1
+  /*var slideNumber = 1
   var slideshowSpeed = 3000
-  var slideshowIntervalID = setInterval(slideshow, slideshowSpeed)
+  var slideshowIntervalID = setInterval(slideshow, slideshowSpeed)*/
 
 
 
