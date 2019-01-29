@@ -141,7 +141,7 @@ div {
   position: relative;
   display: inline-block;
 }
- 
+
 .tooltip .tooltiptext {
   visibility: hidden;
   border-radius: 6px;
@@ -176,6 +176,7 @@ div {
 .project-filter a {
   color: white;
   font-size: 1.5em;
+  position: absolute;
 }
 /* projects container stores all the project images */
 /* padding to keep from overlapping with the nav */
